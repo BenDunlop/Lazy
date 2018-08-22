@@ -1,0 +1,23 @@
+{
+  "name": "Lazy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "@zeit/next-sass": "^0.2.0",
+    "next": "^6.1.1",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "wow.js": "^1.2.2",
+    "wowjs": "^1.1.3"
+  }
+}

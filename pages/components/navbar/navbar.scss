@@ -1,0 +1,57 @@
+.navbar {
+  background-color: white;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: black;
+  border-bottom:1px solid black;
+
+  &__items {
+
+    display:flex;
+
+      &--right {
+        margin-left:auto;
+      }
+
+  }
+
+  &__link {
+
+    padding-right: 8px;
+
+    &-toggle {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .boxPlaceHolder{
+    height:15px;
+    width:15px;
+    background-color:black;
+  }
+  .navbar__items, .navbar {
+    flex-direction: column;
+  }
+  .navbar__items {
+    display:none;
+  }
+  .navbar__items--right {
+    margin-left: 0;
+  }
+
+  .navbar__link-toggle {
+    height:15px;
+    width:15px;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .navbar__toggleshow{
+    display: flex;
+  }
+}
